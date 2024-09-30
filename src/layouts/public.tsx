@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer";
 
 export default async function PublicLayout({
   children,
@@ -9,6 +10,7 @@ export default async function PublicLayout({
     <main className="relative">
       <Navbar /> 
       {children}
+      <Footer />
     </main>
   );
 }
