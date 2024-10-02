@@ -46,7 +46,7 @@ export default function BannerTop() {
           </div>
         </div>
       </div>
-      <div className="relative flex flex-wrap g-0 z-10 bottom-[10px] 2xl:bottom-[-18px]">
+      <div className="relative flex flex-wrap g-0 z-10 bottom-[8px] 2xl:bottom-[-20px]">
         <div className="w-full lg:w-7/12 flex bg-gray-100 py-8 pl-20 pr-8">
           <div className="flex flex-wrap w-full">
             <div className="w-1/3">

@@ -39,6 +39,33 @@ export const HEADER_ITEMS: IHeaderItem[] = [
     },
 ];
 
+export const LIST_ACTIVITIES = [
+  {
+    id: 1,
+    category: 'PUBLIC WORKSHOP',
+    date: '25 Feb 2022',
+    title: 'Zoompathy vs Zoom-fatigue: Managing Virtual Meeting Burnout',
+  },
+  {
+    id: 2,
+    category: 'BUKA PINTU',
+    date: '20 Oct 2021',
+    title: 'Our New Solution To Hire The Right Person For Your Company',
+  },
+  {
+    id: 3,
+    category: 'LIVE WEBINAR',
+    date: '20 Oct 2021',
+    title: 'DDI : Among Indonesia’s First Signatories of UN WEP',
+  },
+  {
+    id: 4,
+    category: 'BUKA PINTU',
+    date: '20 Oct 2021',
+    title: 'Our New Solution To Hire The Right Person For Your Company',
+  },
+];
+
 export const FOOTER_SOCIAL_MEDIA = [
     {
         id: 1,
