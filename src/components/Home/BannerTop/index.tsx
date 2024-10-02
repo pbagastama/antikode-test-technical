@@ -23,7 +23,7 @@ export default function BannerTop() {
               Adopt Globally,
               <br /> Adopt Locally
             </h1>
-            <p className={`${Trebuchet.className} text-white text-lg mb-5 max-w-xl`}>
+            <p className={`${Trebuchet.className} text-white opacity-80 text-lg mb-5 max-w-xl`}>
               Daya Dimensi Indonesia is a world-class strategic partner for
               individual and organisational transformation through
               humanity-based and technology-supported solutions to help you
@@ -46,20 +46,20 @@ export default function BannerTop() {
           </div>
         </div>
       </div>
-      <div className="relative flex flex-wrap g-0 z-10 bottom-[10px]">
+      <div className="relative flex flex-wrap g-0 z-10 bottom-[10px] 2xl:bottom-[-18px]">
         <div className="w-full lg:w-7/12 flex bg-gray-100 py-8 pl-20 pr-8">
           <div className="flex flex-wrap w-full">
             <div className="w-1/3">
               <div className={`${TStarProLight.className} text-4xl text-[#B92322] mb-2`}>24+ Years</div>
-              <div className={`${Trebuchet.className} text-[#999]`}>Experience</div>
+              <div className={`${Trebuchet.className} text-black opacity-40`}>Experience</div>
             </div>
             <div className="w-1/3">
               <div className={`${TStarProLight.className} text-4xl text-[#B92322] mb-2`}>50,000+</div>
-              <div className={`${Trebuchet.className} text-[#999]`}>Executive Clients</div>
+              <div className={`${Trebuchet.className} text-black opacity-40`}>Executive Clients</div>
             </div>
             <div className="w-1/3">
               <div className={`${TStarProLight.className} text-4xl text-[#B92322] mb-2`}>400+</div>
-              <div className={`${Trebuchet.className} text-[#999]`}>Organization Clients</div>
+              <div className={`${Trebuchet.className} text-black opacity-40`}>Organization Clients</div>
             </div>
           </div>
         </div>
