@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { TStarProRegular } from "./fonts";
 import "./globals.css";
 

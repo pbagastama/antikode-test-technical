@@ -2,7 +2,7 @@ import Link from 'next/link';
 import clsx from 'clsx';
 import Image from 'next/image';
 import { FOOTER_SOCIAL_MEDIA } from "@/constants";
-import { HiOutlineArrowNarrowRight, HiOutlineArrowNarrowUp } from "react-icons/hi";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { Trebuchet, TStarProLight } from '@/app/fonts';
 import logoFooter1 from "/public/images/logo-gptw.png";
 import logoFooter2 from "/public/images/logo-unwomen.png";
@@ -14,12 +14,7 @@ export default function Footer() {
         <div className="container border-b border-white">
             <div className="container py-8 px-4 md:px-10 lg:px-10 xl:px-[80px]">
                 <div className={clsx('flex flex-wrap justify-between')}>
-                    {/* Scroll to top */}
-                    {/* <Link href="#" className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center">
-                    <HiOutlineArrowNarrowUp className="m-auto" />
-                    </Link> */}
 
-                    {/* Certification logos */}
                     <div className="flex gap-4 items-center">
                         <Image
                             src={logoFooter1}
@@ -41,7 +36,6 @@ export default function Footer() {
                         />
                     </div>
 
-                    {/* Social Media Links */}
                     <div className="flex items-center text-[2rem] my-4 lg:my-0">
                         <div className="flex gap-4">
                             {FOOTER_SOCIAL_MEDIA.map((socmed) => (

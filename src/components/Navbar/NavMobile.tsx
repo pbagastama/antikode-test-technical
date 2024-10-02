@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { IHeaderItem } from "@/types/index.types";
 import { usePathname } from "next/navigation";

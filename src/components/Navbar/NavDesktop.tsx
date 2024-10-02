@@ -1,7 +1,6 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import React from "react";
-// import ButtonLink from "../ButtonLink";
 import { IHeaderItem } from "@/types/index.types";
 import { TStarProBold } from "@/app/fonts";
 
@@ -25,7 +24,7 @@ const NavDesktop: React.FC<NavDesktopProps> = (props) => {
     <div className="hidden lg:flex items-center gap-x-10">
       <nav className="text-white">
         <ul className="list-none flex items-center gap-5">
-          {dataHeader.map((item, index) => {
+          {dataHeader.map((item) => {
             const isActive = pathname === item.href;
             return (
               <li className="px-4 sub-menu" key={item.id}>
