@@ -48,7 +48,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header backdrop-blur-[3px] right-0 w-full mx-auto top-0 left-0 z-[9999] px-4 md:px-10 lg:px-10 xl:px-[80px] py-0 h-[90px] md:h-[80px] ${
+        className={`header fixed backdrop-blur-[3px] right-0 w-full mx-auto top-0 left-0 z-[9999] px-4 md:px-10 lg:px-10 xl:px-[80px] py-0 h-[90px] md:h-[80px] ${
           menuOpen ? "" : "bg-opacity-[60%]"
         } ${TStarProRegular.className}`}
       >
