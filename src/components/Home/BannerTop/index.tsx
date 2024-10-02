@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 import { TStarProBold, TStarProLight, Trebuchet } from "@/app/fonts";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 

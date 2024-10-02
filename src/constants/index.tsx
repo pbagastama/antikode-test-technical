@@ -66,6 +66,45 @@ export const LIST_ACTIVITIES = [
   },
 ];
 
+export const LIST_EXPERTISE = [
+{
+    id: 1,
+    icon: "/images/icon-learning.png",
+    title: "Applied Science & Imagination Centre",
+    img: "/images/meeting.jpg",
+  },
+  {
+    id: 2,
+    icon: "/images/icon-diagnostic.png",
+    title: "Diagnostics and Assessments",
+    img: "/images/meeting.jpg",
+  },
+  {
+    id: 3,
+    icon: "/images/icon-transformation.png",
+    title: "Human Resources & Organizational Transformation",
+    img: "/images/meeting.jpg",
+  },
+  {
+    id: 4,
+    icon: "/images/icon-klobility.png",
+    title: 'Klobility',
+    img: "/images/meeting.jpg",
+  },
+  {
+    id: 5,
+    icon: "/images/icon-executive.png",
+    title: "Leadership Development",
+    img: "/images/meeting.jpg",
+  },
+  {
+    id: 6,
+    icon: "/images/icon-learning.png",
+    title: "On-Demand Online Learning",
+    img: "/images/meeting.jpg",
+  },
+];
+
 export const FOOTER_SOCIAL_MEDIA = [
     {
         id: 1,
